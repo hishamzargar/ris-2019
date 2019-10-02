@@ -1,0 +1,53 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.factorypath
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### VS Code ###
+.vscode/
+wrapper
+/authorization/target
+/core-common/target
+/eventhandler/target
+/gatekeeper/target
+/gateway/target
+/mvnw
+/mvnw.cmd
+/orchestrator/target
+/serviceregistry/target
+/.settings
+/authorization/.settings
+/core-common/.settings
+/eventhandler/.settings/*.prefs
+/eventhandler/.settings
+*.prefs
+/gatekeeper/.settings
+/gateway/.settings
+/orchestrator/.settings
+/serviceregistry/.settings
+
+/serviceregistry/*.log
+/authorization/*.log
+/.metadata/
+gatekeeper/gatekeeper\.log
+/eventhandler/*.log
+/orchestrator/*.log
+
+*.log
